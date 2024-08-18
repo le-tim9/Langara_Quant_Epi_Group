@@ -1,4 +1,4 @@
-%before running, import data.csv into matlab environment, import everything except the first row (exclude column titles)  
+%before running, import data.csv into matlab environment, everything except the first row (exclude column titles)  
     
     userInput =input('Enter a year from 2001 to 2020:\n');
     yearInterval = 6+(floor((userInput-2000)/5));
